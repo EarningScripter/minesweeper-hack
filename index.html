@@ -1,0 +1,103 @@
+
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="pragma" content="no-cache"><meta http-equiv="Cache-Control" content="no-cache, must-revalidate"><meta http-equiv="expires" content="1"><meta content="width=device-widt name="viewport"/><title>FieWin</title><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="FieWin"/><meta name="twitter:site" content="FieWin"/><meta name="twitter:description" content="Make money more easier"/><meta name="twitter:image" content="https://res.cloudinary.com/fiewin1/image/upload/images/logo_b.png"><meta property="og:title" content="FieWin"/><meta property="og:type" content="website"/><meta property="og:site_name" content="FieWin"/><meta property="og:url" content="https://www.fiewin.com"/><meta name="msapplication-TileImage" content="https://res.cloudinary.com/fiewin1/image/upload/images/logo_b.png"><meta property="og:image" content="https://res.cloudinary.com/fiewin1/image/upload/images/logo_b.png"/><meta property="og:description" content="Make money more easier"/><meta property="url" content="https://www.fiewin.com"><meta property="type" content="website"><meta property="title" content="FieWin"><meta property="description" content="Make money more easier"><meta property="image" content="https://res.cloudinary.com/fiewin1/image/upload/images/logo_b.png"><link rel="stylesheet" href="https://res.cloudinary.com/fiewin/raw/upload/v1609234720/video/video_jee6sz.css"><script crossorigin src="https://unpkg.com/react@16.13.1/umd/react.production.min.js"></script><script crossorigin src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js"></script><script src="./cdnConfig.js"></script><script src="https://cdn.staticfile.org/fingerprintjs2/2.1.0/fingerprint2.min.js"></script><script src="https://www.google.com/recaptcha/api.js?οnlοad=ReCaptchaLoaded&render=explicit&hl=en" async defer="defer"></script><style>body {
+            position: relative;
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #react-root {
+            width: 100%;
+        }</style></head><body><div id="react-root"></div><script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script><script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-messaging.js"></script><script>
+   
+     
+
+</script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/manifest.c2801786.js"></script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/toWeb~bundle.c2801786.js"></script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/navigation~bundle.c2801786.js"></script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/handler~bundle.c2801786.js"></script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/vendors~bundle.c2801786.js"></script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/default~bundle.c2801786.js"></script><script src="https://res.cloudinary.com/fiewin/raw/upload/js/z1/bundle.c2801786.js"></script></body></html><!DOCTYPE html>
+<html>
+<body>
+<html>
+      
+      
+<button class="GFG" 
+
+    onclick="window.location.href = 'https://t.me/EarningScripter1';"> 
+
+        Join Telegram
+
+    </button> 
+      
+
+</body> 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Display a random image.</title>
+<style type="text/css">
+body {margin-top: 30px;}
+</style> 
+</head>
+<body>
+<div>
+<h1><button id="jsstyle" 
+onclick="display_random_image();">Run</button></h1>
+</div>
+</body>
+</html>
+<script>function display_random_image() 
+{
+     var theImages = [{
+        src: "even.png",
+        width: "240",
+        height: "160"
+    }, {
+        src: "odd.png",
+        width: "320",
+        height: "195"
+    }];
+    
+    var preBuffer = [];
+    for (var i = 0, j = theImages.length; i < j; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = theImages[i].src;
+        preBuffer[i].width = theImages[i].width;
+        preBuffer[i].height = theImages[i].height;
+    }
+   
+// create random image number
+  function getRandomInt(min,max) 
+    {
+      //  return Math.floor(Math.random() * (max - min + 1)) + min;
+    
+imn = Math.floor(Math.random() * (max - min + 1)) + min;
+    return preBuffer[imn];
+    }  
+
+// 0 is first image,   preBuffer.length - 1) is  last image
+  
+var newImage = getRandomInt(0, preBuffer.length - 1);
+ 
+// remove the previous images
+var images = document.getElementsByTagName('img');
+var l = images.length;
+for (var p = 0; p < l; p++) {
+    images[0].parentNode.removeChild(images[0]);
+}
+// display the image  
+document.body.appendChild(newImage);
+}
+</script>
+
+
+
+
+
+
+
+               
+               
+               
+               
+                
